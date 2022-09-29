@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, 
+  *:before, 
+  *:after {
+    box-sizing: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  h1 {
+    background-color: rgba(255, 255, 255, 0.932);
+    border-radius: 80px;
+    text-align: center;
+    text-shadow:3px 5px 10px burlywood;
+
+  }
+  
+  body {
+    background-color: #03061c;
+  }
+  .image-grid {
+    padding: 12px;
+  }
+  
+  .image-row {
+    display: flex;  
+  }
+  
+  .image-row .image {
+    margin: 12px;
+    height: 240px;  
+  }
+  
+  .image { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 
+                0 6px 20px rgba(0, 0, 0, 0.15),
+                0 6px 20px rgba(0, 0, 0, 0.7);
+  }
+  
+  .image-01 {
+    background-image: url('WhatsApp\ Image\ 2022-08-21\ at\ 19.27.01.jpeg'); 
+    flex: 1;  
+  }
+  
+  .image-02 {
+    background-image: url('WhatsApp\ Image\ 2022-08-21\ at\ 19.28.54.jpeg'); 
+    flex: 1;  
+  }
+  
+  .image-03 {
+    background-image: url('WhatsApp\ Image\ 2022-09-04\ at\ 12.49.56.jpeg');  
+    flex: 2;  
+  }
+  
+  .image-04 {
+    background-image: url('WhatsApp\ Image\ 2022-09-05\ at\ 19.21.05.jpeg'); 
+    flex: 1;
+  }
+  
+  .image-05 {
+    background-image: url('WhatsApp\ Image\ 2022-09-06\ at\ 22.46.25.jpeg');
+    flex: 2;
+  }
+  
+  .image-06 {
+    background-image: url('WhatsApp\ Image\ 2022-09-09\ at\ 18.25.43.jpeg');  
+    flex: 2;
+  }
+  
+  .image-07 {
+    background-image: url('WhatsApp\ Image\ 2022-09-10\ at\ 16.55.31.jpeg'); 
+    flex: 1;
+  }
+  
+  .image-08 {
+    background-image: url('WhatsApp\ Image\ 2022-09-11\ at\ 12.49.56.jpeg');  
+    flex: 3;
+  }
+  
+  .image-09 {
+    background-image: url('WhatsApp\ Image\ 2022-09-13\ at\ 22.38.08.jpeg');  
+    flex: 1;
+  }
+  
+  .image-10 {
+    background-image: url('WhatsApp\ Image\ 2022-09-13\ at\ 23.17.56.jpeg'); 
+    flex: 1;
+  }
+  
+  .image-11 {
+    background-image: url('WhatsApp\ Image\ 2022-09-17\ at\ 19.10.38.jpeg'); 
+    flex: 1;
+  }
+  
+  .image-12 {
+    background-image: url('WhatsApp\ Image\ 2022-09-20\ at\ 18.47.12.jpeg'); 
+    flex: 1;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .image-row {
+      flex-direction: column;
+    }
+    
+    .image-row .image {
+      flex-basis: auto;
+    }
+  }
